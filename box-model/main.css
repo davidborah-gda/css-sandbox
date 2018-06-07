@@ -1,11 +1,48 @@
-.lg {
 
+* {
+    box-sizing: border-box;
+}
+
+/*Flex Container*/
+
+.fc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lg {
+ width: 600px;
+ height: 600px;
+ position: fixed;
+ top: 10%;
+ left: 10%; 
 }
 
 .md {
+width: 400px;
+height: 400px;
+position: relative;
+top: 150px;
+right: 100px;
 
 }
 
 .sm {
+width: 200px;
+height: 200px;
+position: relative;
 
+}
+
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
 }
